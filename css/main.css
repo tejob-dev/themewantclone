@@ -915,7 +915,7 @@ i {
 }
 
 .section-title-area {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .section-title-area.text-start .pretitle {
   left: 0;
@@ -5565,7 +5565,7 @@ tr:first-child {
   left: -240px;
 }
 #rtsHeader.rts-header1 .navbar-part .navbar-inner .rts-menu {
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 #rtsHeader.rts-header1 .navbar-part .navbar-inner .header-action-items {
   margin-left: auto;
@@ -8898,14 +8898,14 @@ tr:first-child {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 165px 0 190px 0;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 0 30px 0;
   position: relative;
   z-index: 1;
 }
 .rts-latest-match .latest-match-inner::after {
-  content: "LIVE";
+  /* content: "LIVE"; */
   position: absolute;
   color: #fff;
   font-size: 300px;
@@ -8913,7 +8913,7 @@ tr:first-child {
   z-index: -1;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 @media (max-width: 576px) {
   .rts-latest-match .latest-match-inner::after {
@@ -9047,7 +9047,7 @@ tr:first-child {
 }
 @media (max-width: 768px) {
   .rts-latest-match .latest-match-inner {
-    padding: 60px 0;
+    padding: 16px 0;
   }
   .rts-latest-match .latest-match-inner .content {
     margin-right: 0;
@@ -9072,7 +9072,7 @@ tr:first-child {
     display: none;
   }
   .rts-latest-match .latest-match-inner .match-countdown-area {
-    margin-bottom: 75px;
+    margin-bottom: 10px;
   }
 }
 
@@ -13838,7 +13838,7 @@ tr:first-child {
   color: var(--theme-color);
 }
 .rts-team-section .team-section-inner .rts-teamSlider {
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 .rts-team-section .team-section-inner .rts-teamSlider .swiper-pagination {
   width: 100% !important;
@@ -24751,6 +24751,10 @@ tr:first-child {
 }
 .rts-gallery-section.home-four .filterd-items .gallery-grid .item.small-post {
   height: 290px;
+  margin: 0;
+}
+.rts-gallery-section.home-four .filterd-items .gallery-grid .item.small-post2 {
+  height: 360px;
   margin: 0;
 }
 .rts-gallery-section.home-four .filterd-items .gallery-grid .item.small-post .gallery-picture {
