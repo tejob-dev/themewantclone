@@ -5291,9 +5291,9 @@ i {
 
 .social-links .platform {
   width: 35px;
-  height: 35px;
+  height: 23px;
   border: 2px solid rgba(14, 16, 19, 0.1);
-  border-radius: 0px;
+  border-radius: 27px;
   margin-right: 7px;
 }
 .social-links .platform:hover i {
@@ -5550,7 +5550,7 @@ tr:first-child {
   background-image: linear-gradient(0deg, rgb(239, 125, 0) 0%, rgba(239, 125, 0, 0.30196) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgb(239, 125, 0)), to(rgba(239, 125, 0, 0.30196)));
   background-image: linear-gradient(90deg, rgb(239, 125, 0) 0%, rgba(239, 125, 0, 0.30196) 100%);
-  padding: 0 30px;
+  padding: 14px 30px;
   /* color: rgb(239 125 0); */
 }
 @media (max-width: 400px) {
@@ -12047,7 +12047,7 @@ tr:first-child {
   margin-bottom: 50px;
 }
 .rts-event-details-section .event-info-part .event-info-title {
-  font-size: 30px;
+  font-size: 21px;
   letter-spacing: -1px;
   line-height: 34px;
   color: #111111;
@@ -15379,7 +15379,8 @@ tr:first-child {
   color: var(--theme-color);
 }
 .footer .footer-bottom-area {
-  padding: 4% 0;
+  padding: 1% 0;
+  margin-top: 25px;
   background: rgb(248 150 43);
 }
 .footer .footer-bottom-area .bottom-area-inner {
@@ -15396,7 +15397,7 @@ tr:first-child {
 .footer .footer-bottom-area .copyright {
   color: #ffffff;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 11px;
   line-height: 16px;
 }
 .footer .footer-bottom-area .copyright .brand {
@@ -15405,7 +15406,7 @@ tr:first-child {
 .footer .footer-bottom-area .footer-bottom-links a {
   color: #ffffff;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 11px;
   line-height: 16px;
   margin-right: 40px;
 }
@@ -15465,13 +15466,13 @@ tr:first-child {
   }
   .footer .footer-bottom-area .copyright {
     text-align: center;
-    line-height: 40px;
+    line-height: 14px;
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 9px;
     margin-bottom: 0;
   }
   .footer .footer-bottom-area .footer-bottom-links a {
-    font-size: 14px;
+    font-size: 9px;
     margin-right: 15px;
   }
 }
@@ -18893,7 +18894,7 @@ tr:first-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 184px;
+  height: 20vh;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
